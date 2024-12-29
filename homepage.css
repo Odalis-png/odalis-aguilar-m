@@ -59,7 +59,7 @@ nav{
     text-align:center;
     margin: 2;
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     .head{
         font-size: 5vw;}
     }
@@ -68,7 +68,7 @@ nav{
     flex-direction: row;
     margin:2vw;
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     #container1{
         flex-direction: column;
         align-items: center;
@@ -80,7 +80,7 @@ nav{
     margin:1vw;
     padding:2vw;
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     .picture img{
         width:60vw;
         height: auto;
@@ -92,7 +92,7 @@ nav{
     margin: 3vw;
     text-align: left;
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     .about-me{
         font-size:4.75vw;
         text-align: center;
@@ -125,20 +125,20 @@ nav{
     color: darkorange;
     text-decoration: wavy;
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     #container2{
         flex-direction: column;
         align-items: center;
     }
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     .exp{
         font-size:4.25vw;
         text-align: center;
         margin:2vw;
     }
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     .work{
         font-size:4.5vw;
         text-align: center;
@@ -150,7 +150,7 @@ nav{
     font-size:1.25vw;
     margin:1vw;
 }
-@media (max-width:1080px) {
+@media (max-width:768px) {
     .credit{
         font-size:2.25vw;
         text-align: center;
