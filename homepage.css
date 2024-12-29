@@ -80,7 +80,7 @@ nav{
     margin:1vw;
     padding:2vw;
 }
-@media (max-width:1080px) {
+@media (max-width:780px) {
     .picture img{
         width:60vw;
         height: auto;
