@@ -86,13 +86,13 @@ nav{
     }
 }
 .about-me{
-    font-size: 1.5vw;
+    font-size: 3.25vw;
     margin: 3vw;
     text-align: left;
 }
 @media (max-width:1080px) {
     .about-me{
-        font-size:2vw;
+        font-size:3vw;
         text-align: center;
         margin:2vw;
     }
@@ -108,6 +108,9 @@ nav{
     font-size: 1.5vw;
     text-align: center;
     line-height:2vw;
+}
+.work{
+    font-size: 1.5vw;
 }
 .exp{
     font-size: 1.25vw;
@@ -128,14 +131,27 @@ nav{
 }
 @media (max-width:1080px) {
     .exp{
+        font-size:1.5vw;
+        text-align: center;
+        margin:2vw;
+    }
+}
+@media (max-width:1080px) {
+    .work{
         font-size:2vw;
         text-align: center;
         margin:2vw;
     }
 }
-
 .credit{
     text-align: center;
     font-size:1.25vw;
     margin:1vw;
+}
+@media (max-width:1080px) {
+    .credit{
+        font-size:1vw;
+        text-align: center;
+        margin:2vw;
+    }
 }
