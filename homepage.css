@@ -100,8 +100,40 @@ nav{
 .p1{
     margin: 3vw;
     font-size:1.25vw;
-    line-height:1.6;
+    line-height:1.6vw;
 }
+#container2{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    text-align: center;
+    line-height:2vw;
+}
+.exp{
+    font-size: 1.25vw;
+    line-height: 2vw;
+}
+.exp a{
+    text-decoration: none;
+}
+.exp a:hover{
+    color: darkorange;
+    text-decoration: wavy;
+}
+@media (max-width:1080px) {
+    #container2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:1080px) {
+    .exp{
+        font-size:2vw;
+        text-align: center;
+        margin:2vw;
+    }
+}
+
 .credit{
     text-align: center;
     font-size:1.25vw;
