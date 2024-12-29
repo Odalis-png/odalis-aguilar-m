@@ -82,7 +82,7 @@ nav{
 }
 @media (max-width:1080px) {
     .picture img{
-        width:75%;
+        width:60vw;
         height: auto;
         justify-items: center;
     }
