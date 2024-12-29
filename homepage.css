@@ -144,22 +144,20 @@ nav{
         align-items: center;
     }
 }
-//*@media (max-width:768px) {
+@media (max-width:768px) {
     .exp{
-        font-size:2vw;
+        font-size:4.25vw;
         text-align: center;
         margin:2vw;
-        line-height: 2.5vw;
     }
 }
 @media (max-width:768px) {
     .work{
-        font-size:3vw;
+        font-size:4.5vw;
         text-align: center;
         margin:2vw;
     }
 }
-    *//
 .credit{
     text-align: center;
     font-size:1.25vw;
