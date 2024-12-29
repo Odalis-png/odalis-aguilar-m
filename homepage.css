@@ -146,14 +146,15 @@ nav{
 }
 @media (max-width:768px) {
     .exp{
-        font-size:4.25vw;
+        font-size:2vw;
         text-align: center;
         margin:2vw;
+        line-height: 2.5vw;
     }
 }
 @media (max-width:768px) {
     .work{
-        font-size:4.5vw;
+        font-size:3vw;
         text-align: center;
         margin:2vw;
     }
