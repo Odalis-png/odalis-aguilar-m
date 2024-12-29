@@ -82,9 +82,9 @@ nav{
 }
 @media (max-width:1080px) {
     .picture img{
-        width:30vw;
+        width:75%;
         height: auto;
-        align-items: center;
+        justify-items: center;
     }
 }
 .about-me{
