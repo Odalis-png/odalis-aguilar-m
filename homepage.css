@@ -144,7 +144,7 @@ nav{
         align-items: center;
     }
 }
-@media (max-width:768px) {
+//*@media (max-width:768px) {
     .exp{
         font-size:2vw;
         text-align: center;
@@ -159,6 +159,7 @@ nav{
         margin:2vw;
     }
 }
+    *//
 .credit{
     text-align: center;
     font-size:1.25vw;
