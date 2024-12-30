@@ -99,7 +99,7 @@ nav{
     margin:1vw;
     padding:2vw;
 }
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
     .picture img{
         width:100vw;
         height: auto;
