@@ -26,7 +26,7 @@ body{
     #top{
        padding:0vw 8vw;
        height:250px; 
-       font-size:.5em;
+       font-size:1em;
     }
 }
 .logo img{
@@ -42,7 +42,7 @@ body{
     }
 }
 #top .head h1{
-    font-size:2em;
+    font-size:1em;
     color: antiquewhite;
     margin:0;
     text-align: center;
