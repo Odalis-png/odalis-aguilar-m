@@ -18,13 +18,13 @@ position: absolute;
 left:5px;
 }
 .logo img{
-    height:1.5vw;
+    height:5vw;
     width:auto;
     max-width:100%;
 }
 @media (max-width:763px){
     .logo img{ 
-    height:2vw;
+    height:5vw;
 }
 }
 #portfolio-header .name h1{
@@ -48,7 +48,7 @@ left:5px;
 }
 @media (max-width:763px){
     #portfolio-header .name h1{
-        font-size: 1.5em;
+        font-size: 8em;
     }
 }
 body{
@@ -67,7 +67,7 @@ header{
 }
 @media(max-width:768px){
     header{
-        font-size:10em;
+        font-size:8em;
         text-align: center;
     }
 }
@@ -93,13 +93,13 @@ nav{
 }
 @media(max-width:768px){
     nav{
-        font-size:4vw;
+        font-size:7vw;
         text-align: center;
     }
 }
 @media(max-width:768px){
     .nav li {
-        font-size:4vw;
+        font-size:7vw;
     }
 }
 /* Portfolio Section */
