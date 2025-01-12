@@ -22,13 +22,6 @@ body{
     position: relative;
     margin-bottom:2vw;
 }
-@media only screen and (max-width:1080px){
-    #top{
-       padding:0vw 5vw;
-       height:350 px; 
-       font-size:5em;
-    }
-}
 @media only screen and (max-width:480px){
     #top{
        padding:0vw 8vw;
@@ -43,7 +36,7 @@ body{
     transform:translateY(-50%)
 
 }
-@media screen and(max-width:1080px){
+@media screen and(max-width:480px){
     header.logo h1{
         left:8vw;
     }
@@ -54,7 +47,7 @@ body{
     margin:0;
     text-align: center;
 }
-@media screen and(max-width:1080px){
+@media screen and(max-width:480px){
     #top h1{
         font-size:1.5em;
         justify-content: center;
@@ -78,11 +71,6 @@ nav{
 .nav a:hover{
     color: darkorange;
     text-decoration:wavy;
-}
-@media only screen and (max-width:1080px){
-    .nav {
-        font-size:1em;
-    }
 }
 @media only screen and (max-width:480px){
     .nav{
@@ -111,7 +99,7 @@ nav{
     line-height:2.10em;
     margin-bottom:2vw;
 }
-@media only screen and (max-width:1080px)
+@media only screen and (max-width:480px)
 {
     #container1{
         flex-direction: column;
