@@ -42,14 +42,14 @@ body{
     }
 }
 #top .head h1{
-    font-size:1em;
+    font-size:2em;
     color: antiquewhite;
     margin:0;
     text-align: center;
 }
 @media screen and(max-width:480px){
     #top h1{
-        font-size:.5vw;
+        font-size:1em;
         justify-content: center;
     }
 }
