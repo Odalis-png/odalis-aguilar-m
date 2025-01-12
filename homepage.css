@@ -109,12 +109,13 @@ nav{
         width:80vw
     }
     .about-me{
-        font-size:2rem;
+        font-size:1rem;
         margin:4vw
     }
     .p1{
-    font-size:2rem;
+    font-size:.5rem;
     margin:4vw;
+    line-height:.75vw;
 }
 #container2{ 
     display:flex;
