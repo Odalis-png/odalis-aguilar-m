@@ -79,8 +79,18 @@ nav{
     color: darkorange;
     text-decoration:wavy;
 }
+@media only screen and (max-width:1080px){
+    .nav {
+        font-size:1.5em;
+    }
+}
+@media only screen and (max-width:480px){
+    .nav{
+        font-size:1.5em;
+    }
+}
 #container1{
-    display: flex;
+    display: flex; 
     flex-direction:row;
     margin:2vw
 }
@@ -101,6 +111,23 @@ nav{
     line-height:2.10em;
     margin-bottom:2vw;
 }
+@media only screen and (max-width:480px)
+{
+    #container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .picture img{
+        width:80vw
+    }
+    .about-me{
+        font-size:2em;
+        margin:4vw
+    }
+    .p1{
+    font-size:2em;
+    margin:4vw;
+}
 #container2{ 
     display:flex;
     flex-direction: column;
@@ -118,7 +145,8 @@ nav{
 .exp a{ 
     text-decoration: none;
 }
-.exo a:hover{
+.exp a:hover{
     color: darkorange;
     text-decoration: underline;
+}
 }
