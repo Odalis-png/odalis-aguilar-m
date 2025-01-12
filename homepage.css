@@ -45,7 +45,7 @@ nav{
 }
 @media(max-width:768px){
     nav{
-        font-size:4vw;
+        font-size:6em;
         text-align: center;
     }
 }
@@ -73,7 +73,7 @@ nav{
 
 }
 .head{
-    font-size:8vw;
+    font-size:9em;
     margin:2.25vw;
     text-align:center;
     margin: 2;
