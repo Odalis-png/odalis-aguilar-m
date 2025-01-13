@@ -22,6 +22,7 @@ body{
     position: relative;
     margin-bottom:2vw;
 }
+//*
 @media only screen and (max-width:480px){
     #top{
        padding:0vw 8vw;
@@ -29,6 +30,7 @@ body{
        font-size:1em;
     }
 }
+*//
 .logo img{
     position: absolute;
     left:2vw;
@@ -36,6 +38,7 @@ body{
     transform:translateY(-50%)
 
 }
+//*
 @media screen and(max-width:480px){
     header.logo h1{
         left:5vw;
@@ -53,6 +56,7 @@ body{
         justify-content: center;
     }
 }
+*//
 nav{
     font-size: 2em;
     text-align: center;
@@ -72,11 +76,13 @@ nav{
     color: darkorange;
     text-decoration:wavy;
 }
+//*
 @media only screen and (max-width:480px){
     .nav{
         font-size:1em;
     }
 }
+*//
 #container1{
     display: flex; 
     flex-direction:row;
@@ -100,6 +106,7 @@ nav{
     line-height:1.75em;
     margin-bottom:2vw;
 }
+//*
 @media only screen and (max-width:480px)
 {
     #container1{
@@ -119,6 +126,7 @@ nav{
     line-height:.75vw;
 }
 }
+*//
 #container2{ 
     display:flex;
     flex-direction: row;
@@ -142,6 +150,7 @@ nav{
     color: darkorange;
     text-decoration: underline;
 }
+*//
 footer{
     font-size: 2.75em;
     text-align: center;
