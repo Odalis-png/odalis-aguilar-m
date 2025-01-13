@@ -1,44 +1,62 @@
-/* Universal reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{margin:auto;
 }
-
-/* Base styles */
-body {
+body{
     background-color: lavender;
     font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
 }
-
-/* Header section */
-#top {
-    color: antiquewhite;
-    background-image: url('bannerweb.png');
-    background-size: cover;
-    background-position: center;
+#top{
+    color:antiquewhite;
+    background-image: url(bannerweb.png);
+    background-size:cover;
+    background-position:center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 450px;
-    display: flex;
+    width:100%;
+    height:450px;
+    display:flex;
     justify-content: center;
-    padding: 2vw 4vw;
+    align-items: center;
     position: relative;
     margin-bottom: 2vw;
 }
-
-/* Logo styles */
-.logo {
-    height: 1vw;
-    width: auto;
+@media only screen and (max-width: 1080px) {
+    #top {
+        background-size: contain; /* Make image fit without cropping */
+        background-position: center center;
+        height: 350px; /* Reduce height for smaller screens */
+    }
 }
 
+@media only screen and (max-width: 480px) {
+    #top {
+        background-size: contain; /* Make image fit without cropping */
+        background-position: center center;
+        height: 250px; /* Further reduce height for mobile screens */
+    }
+}
 .logo img {
     position: absolute;
     left: 2vw;
     top: 50%;
     transform: translateY(-50%);
+}
+.logo{
+    height:5vw;
+    width: auto;
+}
+
+#top .head h1 {
+    font-size: 2em;
+    color: antiquewhite;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #top h1 {
+        font-size: 1.5em;
+        justify-content: center;
+    }
 }
 
 /* Navigation */
@@ -58,7 +76,6 @@ nav {
 .nav a {
     text-decoration: none;
     color: midnightblue;
-    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .nav a:hover {
@@ -66,7 +83,19 @@ nav {
     text-decoration: wavy;
 }
 
-/* Content container */
+@media only screen and (max-width: 1080px) {
+    .nav {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nav {
+        font-size: 1em;
+    }
+}
+
+/* Main content */
 #container1 {
     display: flex;
     flex-direction: row;
@@ -93,47 +122,17 @@ nav {
     margin-bottom: 2vw;
 }
 
-/* Media Queries */
 @media only screen and (max-width: 1080px) {
-    #top {
-        background-size: contain;
-        height: 350px;
-    }
-    
-    .nav {
-        font-size: 1em;
-    }
-    
     #container1 {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .picture img {
         width: 80vw;
     }
-    
+
     .about-me {
         font-size: 2em;
         margin: 4vw;
     }
-    
-    .p1 {
-        font-size: 1.5em;
-        margin: 4vw;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #top {
-        height: 250px;
-    }
-    
-    #top h1 {
-        font-size: 1.5em;
-    }
-    
-    .nav {
-        font-size: 1em;
-    }
-}
