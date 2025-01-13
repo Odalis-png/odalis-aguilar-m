@@ -79,15 +79,12 @@
             font-size:1em;
         }
     }
-/* Portfolio Section */
 #portfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; 
     padding: 20px;
 }
-
-/* Grid Item Styling */
 .grid-item img {
     width: 100%;
     height: auto;
@@ -95,8 +92,6 @@
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Footer Styling */
 footer {
     margin-top: 20px;
     font-size: 1.5em;
