@@ -46,3 +46,85 @@ body{
     top:50%;
     transform: translateY(-50%);
 }
+#top .head h1{
+    font-size: 2em;
+    color: antiquewhite;
+    margin: 0;
+    text-align: center;
+}
+@media screen and (max-width:480){
+    #top h1{
+        font-size: 1.5em;
+        justify-content: center;
+    }
+}
+nav{
+    font-size: 2em;
+    text-align: center;
+    margin:1vw;
+}
+.nav li{
+    display:inline;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2em;
+}
+.nav a {
+    text-decoration:none;
+    color: midnightblue;
+    transition: color 0.3s ease,
+    text-decoration 0.3s ease;
+}
+.nav a:hover{
+    color: darkorange;
+    text-decoration: wavy;
+}
+@media only screen and (max-width:1080px){
+    .nav{
+        font: size 1em;
+    }
+}
+@media only screen and (max-width:480px){
+    .nav{
+        font: size 1em;
+    }
+}
+#container1{
+    display: flex;
+    flex-direction: row;
+    margin:2vw
+}
+.picture img{
+    height:auto;
+    width: 50vw;
+    margin:1vw;
+    padding:2vw;
+}
+.about-me{
+    font-size:2.10em;
+    margin:2vw;
+    text-align:left;
+}
+.p1{
+    margin: 2vw;
+    font-size: 2em;
+    line-height: 2.10em;
+    margin-bottom:2vw;
+}
+@media only screen and (max-width:1080px){
+    #container1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .picture img{
+        width:80vw
+    }
+    .about-me{
+        font-size: 2em;
+        margin: 4vw;
+    }
+    .p1{
+        font-size: 1.5em;
+        margin:4vw;
+    }
+}
