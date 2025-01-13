@@ -46,7 +46,7 @@ body{
 }
 
 #top .head h1 {
-    font-size: 2em;
+    font-size: 10em;
     color: antiquewhite;
     margin: 0;
     text-align: center;
@@ -136,3 +136,4 @@ nav {
         font-size: 2em;
         margin: 4vw;
     }
+}
