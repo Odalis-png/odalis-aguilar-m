@@ -118,13 +118,11 @@
         margin:4vw;
         line-height:.75vw;
     }
-    }/* Container for both Experience and Skills */
+    }
 #container2 {
     margin: 2vw;
     padding: 2vw;
 }
-
-/* Experience Section */
 .experience {
     margin-bottom: 4vw;
     justify-content: left;
@@ -154,7 +152,7 @@
     color: darkorange;
 }
 
-/* Skills Section */
+
 #skills {
     margin-top: 4vw;
     padding:2vw;
@@ -176,8 +174,6 @@
     color: midnightblue;
     margin-bottom: 1vw;
 }
-
-/* Responsive Adjustments */
 @media only screen and (max-width: 768px) {
     #container2 {
         padding: 4vw;
