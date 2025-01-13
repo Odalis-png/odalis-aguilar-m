@@ -18,7 +18,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 450px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,13 +52,12 @@ nav {
 }
 
 .nav {
-    list-style: none;
-    display: inline-flex;
-    gap: 2vw;
+    text-align: center;
 }
 
 .nav li {
-    font-size: 1.5em;
+    display: inline;
+    font-size: 2vw;
 }
 
 .nav a {
