@@ -16,3 +16,13 @@ header{
     flex-direction: row;
     gap: 2vw;
 }
+.logo img{
+    height:3vw;
+    width: auto;
+    position: absolute;
+    left: 2vw;
+    top:50%;
+    transform: translateY(-50%);
+}
+.head{
+}
