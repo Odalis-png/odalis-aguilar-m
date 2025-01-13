@@ -1,76 +1,60 @@
-*{margin:auto;
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+/* Body styles */
+body {
     background-color: lavender;
     font-family: Arial, Helvetica, sans-serif;
     color: midnightblue;
 }
-#top{
-    color:antiquewhite;
-    background-image: url(bannerweb.png);
-    background-size:cover;
-    background-position:center;
+
+/* Header Section */
+#top {
+    color: antiquewhite;
+    background-image: url('bannerweb.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    font-size: 6em;
     background-repeat: no-repeat;
-    width:100%;
-    height:450px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2vw 4vw;
     position: relative;
-    margin-bottom: 2vw;
-}
-@media only screen and (max-width: 1080px) {
-    #top {
-        background-size: contain; /* Make image fit without cropping */
-        background-position: center center;
-        height: 350px; /* Reduce height for smaller screens */
-    }
 }
 
-@media only screen and (max-width: 480px) {
-    #top {
-        background-size: contain; /* Make image fit without cropping */
-        background-position: center center;
-        height: 250px; /* Further reduce height for mobile screens */
-    }
-}
 .logo img {
-    position: absolute;
-    left: 2vw;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.logo{
-    height:3vw;
+    height: 10vw;
     width: auto;
 }
 
 #top .head h1 {
-    font-size: 8em;
+    font-size: 2.5em;
     color: antiquewhite;
-    margin: 0;
     text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-    #top h1 {
-        font-size: 1.5em;
-        justify-content: center;
-    }
-}
-
-/* Navigation */
+/* Navigation Bar */
 nav {
-    font-size: 2em;
     text-align: center;
+    font-size: 1.5em;
     margin: 1vw;
+}
+
+.nav {
+    list-style: none;
 }
 
 .nav li {
     display: inline;
     padding: 2vw;
     margin: 2vw;
-    font-size: 2em;
 }
 
 .nav a {
@@ -83,34 +67,23 @@ nav {
     text-decoration: wavy;
 }
 
-@media only screen and (max-width: 1080px) {
-    .nav {
-        font-size: 1em;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .nav {
-        font-size: 1em;
-    }
-}
-
-/* Main content */
+/* Main Content Section */
 #container1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin: 2vw;
-}
-
-.picture img {
-    height: auto;
-    width: 50vw;
-    margin: 1vw;
     padding: 2vw;
 }
 
+.picture img {
+    width: 50%;
+    height: auto;
+    margin: 1vw;
+}
+
 .about-me {
-    font-size: 2.10em;
+    font-size: 2.1em;
     margin: 2vw;
     text-align: left;
 }
@@ -118,22 +91,135 @@ nav {
 .p1 {
     margin: 2vw;
     font-size: 2em;
-    line-height: 2.10em;
+    line-height: 2.1em;
     margin-bottom: 2vw;
 }
 
+#container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5em;
+    line-height: 2vw;
+    margin: 2vw;
+}
+
+.work {
+    font-size: 2.1em;
+}
+
+.exp {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.skills {
+    font-size: 1.1em;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin: 1vw;
+}
+
+/* Footer Section */
+footer {
+    font-size: 2.75em;
+    text-align: center;
+    padding: 2vw;
+}
+
+footer a {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: darkorange;
+}
+
+/* Media Queries for responsiveness */
 @media only screen and (max-width: 1080px) {
+    #top {
+        font-size: 4em;
+        height: 350px;
+        padding: 2vw;
+    }
+
+    .nav {
+        font-size: 1.2em;
+    }
+
     #container1 {
         flex-direction: column;
         align-items: center;
     }
 
     .picture img {
-        width: 80vw;
+        width: 80%;
     }
 
     .about-me {
-        font-size: 2em;
+        font-size: 1.8em;
         margin: 4vw;
+    }
+
+    .p1 {
+        font-size: 1.2em;
+        margin: 4vw;
+    }
+
+    #container2 {
+        flex-direction: column;
+        font-size: 1.25em;
+        align-items: center;
+    }
+
+    .work, .exp, .skills {
+        margin: 2vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #top {
+        font-size: 2em;
+        height: 250px;
+    }
+
+    .nav {
+        font-size: 1em;
+    }
+
+    #container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .picture img {
+        width: 100%;
+    }
+
+    .about-me {
+        font-size: 1.5em;
+        margin: 4vw;
+    }
+
+    .p1 {
+        font-size: 1em;
+        margin: 4vw;
+        line-height: 1.5em;
+    }
+
+    #container2 {
+        flex-direction: column;
+        font-size: 1.1em;
+        align-items: center;
+    }
+
+    .work, .exp, .skills {
+        margin: 2vw;
     }
 }
