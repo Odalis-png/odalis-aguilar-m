@@ -38,7 +38,7 @@ body{
 }
 @media screen and(max-width:480px){
     header.logo h1{
-        left:8vw;
+        left:5vw;
     }
 }
 #top .head h1{
@@ -74,13 +74,14 @@ nav{
 }
 @media only screen and (max-width:480px){
     .nav{
-        font-size:.75rem;
+        font-size:1em;
     }
 }
 #container1{
     display: flex; 
     flex-direction:row;
-    margin:2vw
+    margin:2vw;
+    gap:2vw;
 }
 .picture img{
     height:auto;
@@ -96,7 +97,7 @@ nav{
 .p1{
     margin:2vw;
     font-size:2em;
-    line-height:2.10em;
+    line-height:1.75em;
     margin-bottom:2vw;
 }
 @media only screen and (max-width:480px)
@@ -109,7 +110,7 @@ nav{
         width:80vw
     }
     .about-me{
-        font-size:1rem;
+        font-size:1em;
         margin:4vw
     }
     .p1{
@@ -117,19 +118,22 @@ nav{
     margin:4vw;
     line-height:.75vw;
 }
+}
 #container2{ 
     display:flex;
-    flex-direction: column;
-    font-size:3.25vw ;
-    text-align: center;
-    line-height: 2vw;
+    flex-direction: row;
+    font-size:3.25em ;
+    line-height: 3vw;
+    gap: 4vw;
 }
 .work{
-    font-size: 1.5vw;
+    font-size:2.10em;
+    justify-content: right;
 }
 .exp{
-    font-size:1.25vw;
-    line-height:2vw;
+    font-size:1.10em;
+    line-height:1.40em;
+    justify-content:left;
 }
 .exp a{ 
     text-decoration: none;
@@ -138,4 +142,15 @@ nav{
     color: darkorange;
     text-decoration: underline;
 }
+footer{
+    font-size: 2.75em;
+    text-align: center;
+    padding: 2vw;
+}
+footer a{
+    color:midnightblue;
+    text-decoration:none;
+}
+footer a:hover{
+    color: darkorange;
 }
