@@ -22,15 +22,13 @@ body{
     position: relative;
     margin-bottom:2vw;
 }
-//*
-@media only screen and (max-width:480px){
+@media only screen and (max-width:1080px){
     #top{
        padding:0vw 8vw;
        height:250px; 
        font-size:1em;
     }
 }
-*//
 .logo img{
     position: absolute;
     left:2vw;
@@ -38,8 +36,7 @@ body{
     transform:translateY(-50%)
 
 }
-//*
-@media screen and(max-width:480px){
+@media screen and(max-width:1080px){
     header.logo h1{
         left:5vw;
     }
@@ -50,13 +47,12 @@ body{
     margin:0;
     text-align: center;
 }
-@media screen and(max-width:480px){
+@media screen and(max-width:1080px){
     #top h1{
         font-size:1em;
         justify-content: center;
     }
 }
-*//
 nav{
     font-size: 2em;
     text-align: center;
@@ -76,13 +72,11 @@ nav{
     color: darkorange;
     text-decoration:wavy;
 }
-//*
-@media only screen and (max-width:480px){
+@media only screen and (max-width:1080px){
     .nav{
         font-size:1em;
     }
 }
-*//
 #container1{
     display: flex; 
     flex-direction:row;
@@ -103,11 +97,10 @@ nav{
 .p1{
     margin:2vw;
     font-size:2em;
-    line-height:1.75em;
+    line-height:2.10em;
     margin-bottom:2vw;
 }
-//*
-@media only screen and (max-width:480px)
+@media only screen and (max-width:1080px)
 {
     #container1{
         flex-direction: column;
@@ -126,12 +119,11 @@ nav{
     line-height:.75vw;
 }
 }
-*//
 #container2{ 
     display:flex;
     flex-direction: row;
     font-size:3.25em ;
-    line-height: 3vw;
+    line-height: 2vw;
     gap: 4vw;
 }
 .work{
@@ -140,7 +132,7 @@ nav{
 }
 .exp{
     font-size:1.10em;
-    line-height:1.40em;
+    line-height:1.15em;
     justify-content:left;
 }
 .exp a{ 
@@ -150,7 +142,6 @@ nav{
     color: darkorange;
     text-decoration: underline;
 }
-*//
 footer{
     font-size: 2.75em;
     text-align: center;
