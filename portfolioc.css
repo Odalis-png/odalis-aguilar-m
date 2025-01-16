@@ -10,10 +10,10 @@
     #top{
         color: antiquewhite;
         background-image: url(bannerweb.png);
-        background-size:cover;
-        width:100%;
+        background-size:contain;
+        width:4vw;
         height:460px;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         display: flex;
         justify-content: center;
         align-items:center;
@@ -25,12 +25,11 @@
         #top{
            padding:0vw 8vw;
            height:250px; 
-           font-size:1em;
         }
     }
     .logo img{
         max-height: 10vw;
-        max-width: 10vw;
+        max-width: 16vw;
         width: auto;
         position: absolute;
         left: 2%;
@@ -43,8 +42,8 @@
             left: 5%;
         }
     }
-    #top .head h1{
-        font-size:2em;
+    .head h1{
+        font-size:3em;
         color: antiquewhite;
         margin:0;
         text-align: center;
