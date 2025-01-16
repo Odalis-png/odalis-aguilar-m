@@ -10,7 +10,7 @@
     #top{
         color: antiquewhite;
         background-image: url(bannerweb.png);
-        background-size:cover;
+        background-size:contain;
         width:100%;
         height:450px;
         background-repeat: no-repeat;
