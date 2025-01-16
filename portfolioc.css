@@ -30,15 +30,18 @@
         }
     }
     .logo img{
+        max-height: 10vw;
+        max-width: 10vw;
+        width: auto;
         position: absolute;
-        left:2vw;
+        left: 2%;
         top:50%;
-        transform:translateY(-50%)
-    
+        transform: translateY(-50%);
     }
     @media screen and(max-width:480px){
-        header.logo h1{
-            left:5vw;
+        .logo img{
+            max-height: 15vw;
+            left: 5%;
         }
     }
     #top .head h1{
